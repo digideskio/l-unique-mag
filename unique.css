@@ -1,0 +1,164 @@
+body {
+    font-family: 'Ek Mukta', sans-serif;
+    background: #fff;
+    margin: 0 auto;
+    position: relative;
+}
+
+.right {
+    float: right;
+}
+    
+.left {
+    float: left;
+}
+
+.edito {
+    position: relative;
+    width: calc(60% - 40px);
+    background: #fff;
+    padding: 0px 20px;
+    height: 680px;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.couv {
+    position: relative;
+    width: 40%;
+    height: 100%;
+    background: #000;
+    text-align: center;
+    height: 680px;
+    max-width: 40%;
+}
+
+.couverture {
+    width: 110%;
+    margin-left: -10px;
+    max-height: 600px;
+    max-width: 481px;
+}
+
+.txt-lire {
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px:;
+    width: 80%;
+}
+
+#head {
+    height: 250px;
+    background-image: url(Charleroi-sud_by_night.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#head #titles {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-width: 980px;
+}
+
+#head h1 {
+    margin-left: 10%;
+    font-size: 5em;
+    margin-top: 0px;
+    padding-top: 5px;
+    line-height: 2em;
+    text-shadow: 2px 2px #000000;
+}
+#head h2 {
+    padding-left: 8%;
+    padding-right: 12%;
+    margin-top: -40px;
+    line-height: 1.4em;
+    text-shadow: 2px 1px #000000;
+    background: rgba(170,137,44,.7);
+}
+
+#description {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    min-height: 680px;
+    border: 2px solid #aa892c;
+    margin-bottom: 30px;
+    max-width: 960px;
+    min-width: 790px;
+}
+
+#description h3 {
+    font-size: 1.5em;
+}
+
+hr {
+    border-style: ridge;
+    border-width: 1px;
+}
+
+#description hr {
+    width: 50%;
+    margin-left: 0px;
+    color: #aa892c;
+    margin-top: -20px;
+    border-style: dotted;
+    margin-bottom: 20px;
+}
+
+#description a {
+    text-decoration: none;
+}
+#description a:hover {
+    text-decoration: underline;
+    color: #aa892c;
+}
+
+#foot {
+    font-size:0.7em;
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    position: relative;
+}
+
+.external {
+    width: 380px;
+    height: 120px;
+    float: left;
+    padding-top: 5px;
+}
+
+.external p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 5px;
+    color: #555;
+}
+
+.external a {
+    text-decoration:none;
+    color: inherit;
+}
+
+.external a:hover {
+    text-decoration: underline;
+}
+
+.heph {
+    height:100%;
+    max-height: 80px;
+    float:left;
+    padding-right: 10px;
+}
+
+.diffusion {
+    padding-top: 20px;
+}
+
+.credits {
+    padding-left: 10px;
+}
